@@ -7,3 +7,27 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+
+.profile-image {
+  width:100px;
+  height:100px;
+}
+
+.profile-comment{
+  flex-grow: 3;
+}
+
+.comment-group{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.image-name {
+  max-width: 100px;
+}
+
+.blue {
+  background-color: aquamarine;
+}
+
